@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.main_box {
+  width: 1000px;
+  height: 790px;
+  background-color: white;
+  margin: 20px;
+  text-align: left;
+}
+
+/* Gray lines top-header, middle-ampty, bottom-footer */
+.gray_line {
+  float: left;
+  width: 1000px;
+  height: 40px;
+  background-color: gray;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.middle_gray_line {
+  float: left;
+  width: 1000px;
+  height: 40px;
+  background-color: gray;
+
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.white_text {
+  color: white;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main section with nav and pictures, latest in the library */
+main {
+  float: left;
+  width: 1000px;
+  height: 726px;
+  background-color: white;
+
+  padding: 10px;
+}
+
+.eight_boxes {
+  float: left;
+  width: 120px;
+  height: 140px;
+  background-color: purple;
+
+  margin: 1px;
+}
+
+#white_box {
+  background-color: white;
+}
+
+/* Links in top picture section */
+.eight_boxes a:link {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.eight_boxes a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.eight_boxes a:hover {
+  background-color: white;
+  color: purple;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom_box {
+  float: left;
+  width: 245px;
+  height: 200px;
+  background-color: lightgray;
+
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+.bottom_box h4,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text_gray {
+  color: rgb(98, 98, 98);
+}
+
+/* Link in bottom section */
+.bottom_box a:link {
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 20px 5px 20px;
+}
+.bottom_box a:visited {
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 20px 5px 20px;
+}
+.bottom_box a:hover {
+  color: gray;
+  background-color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 20px 5px 20px;
+}
+
+/* Footer styling text and icons. Add icons with library */
+/* Style all icons */
+.icons {
+  float: left;
+  width: 500px;
+  height: 40px;
+  background-color: gray;
+
+  padding: 5px;
+}
+.copy {
+  float: left;
+  width: 490px;
+  height: 40px;
+  background-color: gray;
+
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+.fa:link {
+  padding: 10px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:visited {
+  padding: 10px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #e04279;
+  color: white;
+}
+
+/* Pinterest */
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
